@@ -6,6 +6,9 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+/**
+ * Provides the actual database transactions.
+ */
 @Repository
 public interface AnimalRepository extends JpaRepository<Animal, Integer> {
 
